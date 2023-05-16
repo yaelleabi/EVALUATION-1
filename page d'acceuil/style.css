@@ -1,0 +1,121 @@
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px;
+    border: 3px black solid;
+  }
+  li  {
+    display: inline;
+    width:100px;
+    padding: 20px ;
+  }
+  li a {
+    color: white;
+  }
+  .mainHeader{
+    display:flex;
+    justify-content: space-around
+  }
+  .title{
+    display :block;
+   /* justify-content: center;*/
+   
+    /*justify-content: space-between;*/
+  }
+ .logo{
+   width: 60px;
+   height: 60px;
+ }
+h1{
+    
+   font-size: 40px;
+   color:rgb(181, 138, 20)
+   /* text-align: center;*/
+}
+h2{
+    text-align: center;
+    color:rgb(181, 138, 20);
+    text-shadow: 0px 13px 5px #CEC777;
+
+}
+.menu{
+    text-align: center;
+    background-color: black;
+    text-decoration: white;
+}
+h3{
+  font-size: 40px;
+  font-family: 'Acme', sans-serif;
+  color:rgb(181, 138, 20);
+  text-align: center;
+
+}
+.first{
+    display: flex;
+    background-color: lightpink;
+    margin: 20px;
+    justify-content: space-around;
+}
+/*main{
+    display: flex;
+    justify-content: center;
+    size:80%;
+}*/
+.Photo1{
+    
+    width: 400px;
+    align-items: end;
+    margin :20px;
+}
+/*.photo2{
+    align-items: end;
+}*/
+.mainText{
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    border :2px lightgray solid; 
+    margin :20px ;
+    padding :15px;
+    background-color:rgba(231, 149, 162, 0.795);
+    width:400px;
+
+}
+.second{
+  background-color: lightblue;
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+  
+
+.photo2{
+ 
+  align-items: end;
+  width: 400px;
+  margin :20px;
+  
+
+}
+.text2{
+  font-size: 20px;
+  font-family: 'Signika Negative', sans-serif;
+  border :2px lightgray solid; 
+  margin :20px ;
+  padding :15px;
+  background-color:rgb(167, 198, 224);
+  width:400px;
+}
+.footer{
+  background-color: black;
+  margin: 50px;
+  padding: 15px;
+  /*display:flex;*/
+}
+.footerText
+{
+  color:rgb(194, 49, 49);
+  text-align: center;
+  /*align-items: center;*/
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}

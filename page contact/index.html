@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Signika+Negative&display=swap" rel="stylesheet">
+    <title>Contactez nous</title>
+</head>
+<body>
+    <header>
+        <div class="mainHeader">
+           <div class="logo">
+               <img class="logo" alt ="logo"src="../logo.jpeg" >
+             
+           </div> 
+          
+          <div class="title">
+           <h1> L'association Sourire Ensemble</h1>
+           <h2>  <br> Donner Aider Sourire </h2>
+          </div>
+           <div class="logo">
+             <img class="logo" src="../logo.jpeg" >
+           
+         </div> 
+       
+         </div>
+           <div class="menu">
+               <ul>
+                   <li><a href="../page d'acceuil/index.html">Acceuil</a></li>
+                   
+                   <li><a href="../page faire un don/index.html">Faire un don</a></li>
+                   <li><a href="#">Nous contacter</a></li>
+                 </ul>
+               </div>
+       </header>
+    <main>
+         <div class="formHeader">
+           <h3> Formulaire de contact</h3>
+           <div class="explanation">
+            <p> Afin de nous contacter veuillez remplir le formulaire ci-dessous.<br>
+                Les champs marqués d'une étoile * sont obligatoires
+            </p>
+           </div>
+           </div>
+           <div class="form">
+            <form method="post" action="inscription.php.">
+                <div class="element">
+                <p> Veuillez sélectionner votre civilité</p> 
+                <select  name="civilité" id="civilité">
+                    <option value="Mme">Mme</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mlle">Mlle</option>
+                </select> <br>
+                </div>
+                <div class="element">
+                <label  for="name">Nom*</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom " required><br>
+                </div>
+                <div class="element">
+                <label for="firstName">Prénom*</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Votre prénom" required ><br>
+                </div>
+                <div class="element">
+
+                <label for="email">E-mail*</label>
+                <input type="email" id="email" name="email" placeholder="email@example.fr" required><br>
+                </div>
+                <div class="element">
+                <label for="tel">Numéro de téléphone</label>
+                <input type="tel" id="tel" name="tel" placeholder="00 00 00 00 00"><br>
+               </div>
+                
+           </div>
+
+        
+    </main>
+    <div class="footer">
+        <footer>
+           <div class="footerText">
+          <p>
+          "Sourire ensemble,l'association fondée par la communauté pour la communauté"
+         </p>
+        </div>
+    
+        </footer>
+      </div>
+</body>
+</html>
