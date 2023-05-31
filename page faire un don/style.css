@@ -60,7 +60,7 @@ h3{
 h4{
  color:#CEC777;
  text-align :center;
- font-size: 30px;;
+ font-size: 30px;
 }
 .text{
   background-color: rgb(132, 184, 132);
@@ -92,3 +92,69 @@ h4{
   border:1px dotted black;
   margin:20px ;
 }
+
+@media screen and (max-width:696px) {
+  
+    h1{
+      font-size: 23px;
+      
+    }
+    h2{
+      font-size: 15px;
+    }
+    h3{
+      font-size: 18px;
+    }
+    h4{
+      font-size: 16px;
+    }
+    .footerText{
+      font-size: 13px;
+    }
+    .text{
+      width: 450px;
+    }
+    .bottom,.text{
+      font-size: 12px;
+    }
+    .explanation{
+      font-size: 14px;
+    }
+
+
+  }
+  @media  screen and (max-width:473px) {
+  h1{
+    font-size: 20px;
+    
+  }
+  h2{
+    font-size: 12px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  h4{
+    font-size: 13px;
+  }
+   
+    .logo{
+      width: 35px;
+      height: 35px;
+    }
+    .footerText{
+      font-size: 10px;
+    }
+    li a {
+      font-size: 10px;
+    }
+    .text{
+      width: 34A0px;
+    }
+    .bottom,.text{
+      font-size: 10px;
+    }
+    .explanation{
+      font-size: 12px;
+    }
+  }

@@ -51,6 +51,8 @@ h3{
 
 }
 .first{
+    width: 95vw;
+    height: 40vh;
     display: flex;
     background-color: lightpink;
     margin: 20px;
@@ -61,23 +63,26 @@ h3{
     justify-content: center;
     size:80%;
 }*/
-.Photo1{
-    
-    width: 400px;
+.photo1{
+
     align-items: end;
     margin :20px;
+    width: 400px;
+    height: auto;
 }
 /*.photo2{
     align-items: end;
 }*/
 .mainText{
-    font-size: 20px;
+    font-size: 1.3em;
     font-family: 'Signika Negative', sans-serif;
     border :2px lightgray solid; 
-    margin :20px ;
+    margin :15px;
+    margin-bottom: 10px;
     padding :15px;
     background-color:rgba(231, 149, 162, 0.795);
-    width:400px;
+    width: 25em;
+    height:75%;
 
 }
 .second{
@@ -93,11 +98,12 @@ h3{
   align-items: end;
   width: 400px;
   margin :20px;
-  
+  padding-right: 5px;
 
 }
 .text2{
-  font-size: 20px;
+ /* font-size: 20px;*/
+ font-size: 1.3em;
   font-family: 'Signika Negative', sans-serif;
   border :2px lightgray solid; 
   margin :20px ;
@@ -118,4 +124,94 @@ h3{
   /*align-items: center;*/
   font-family: 'Bebas Neue', sans-serif;
   font-size: 30px;
+}
+
+@media screen and (max-width: 965px) {
+  .mainText , .text2{
+    font-size: 1.2em;
+  }
+ .photo1 ,.photo2{
+  width:300px;
+  height: 200px;
+ }
+
+ .first ,.second{
+  height: 350px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+@media screen and (max-width:696px) {
+.first ,.second{
+      height: 20vh;
+      width:80vw;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .mainText ,.text2{
+    height: 130px;
+    width: 240px;
+
+    font-size: 10px;
+  }
+  .text2{
+    
+    padding-bottom: 2px;
+
+  }
+  .photo1,.photo2{
+    width: 170px;
+    height: 100px;
+
+  }
+  h1{
+    font-size: 23px;
+    
+  }
+  h2{
+    font-size: 15px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .footerText{
+    font-size: 10px;
+  }
+}
+@media  screen and (max-width:509px) {
+h1{
+  font-size: 20px;
+  
+}
+h2{
+  font-size: 12px;
+}
+h3{
+  font-size: 15px;
+}
+  .mainText,.text2{
+  font-size: 8px;
+   width:130px;
+  height: 100px;
+  }
+  
+  
+  
+  .photo1,.photo2{
+    width: 120px;
+    height: 75px;
+
+  }
+  .logo{
+    width: 35px;
+    height: 35px;
+  }
+  .footerText{
+    font-size: 10px;
+  }
+  li a {
+    font-size: 10px;
+  }
+  
 }
