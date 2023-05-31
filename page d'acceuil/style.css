@@ -66,9 +66,11 @@ h3{
 .photo1{
 
     align-items: end;
-    margin :20px;
+    margin :auto;
     width: 400px;
     height: auto;
+    margin-left: 2px;
+    
 }
 /*.photo2{
     align-items: end;
@@ -192,15 +194,15 @@ h3{
 }
   .mainText,.text2{
   font-size: 6px;
-   width:130px;
-  height: 140px;
+   width:220px;
+  height: 120px;
   }
   
   
   
   .photo1,.photo2{
-    width: 120px;
-    height: 75px;
+    width: 100px;
+    height: 90px;
 
   }
   .logo{
