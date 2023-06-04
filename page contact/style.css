@@ -79,6 +79,7 @@ h3{
     background-color: black;
     margin: 50px;
     padding: 15px;
+    margin-bottom: 0px;
     /*display:flex;*/
   }
   .footerText

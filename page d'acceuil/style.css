@@ -66,25 +66,27 @@ h3{
 .photo1{
 
     align-items: end;
-    margin :auto;
+    /*margin :auto;*/
     width: 400px;
     height: auto;
     margin-left: 2px;
-    
+    padding-left: 8px;
 }
 /*.photo2{
     align-items: end;
 }*/
+
 .mainText{
     font-size: 1.3em;
     font-family: 'Signika Negative', sans-serif;
     border :2px lightgray solid; 
-    margin :15px;
-    margin-bottom: 10px;
     padding :15px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+    margin-right :8px;
     background-color:rgba(231, 149, 162, 0.795);
-    width: 25em;
-    height:75%;
+    width: 22em;
+    /*height:75%;*/
 
 }
 .second{
@@ -100,7 +102,8 @@ h3{
   align-items: end;
   width: 400px;
   margin :20px;
-  padding-right: 5px;
+  padding-right: 8px;
+ /* padding-left: 8px*/;
 
 }
 .text2{
@@ -110,6 +113,7 @@ h3{
   border :2px lightgray solid; 
   margin :20px ;
   padding :15px;
+  padding-left: 8px;
   background-color:rgb(167, 198, 224);
   width:400px;
 }
@@ -117,6 +121,7 @@ h3{
   background-color: black;
   margin: 50px;
   padding: 15px;
+  margin-bottom: 0px;
   /*display:flex;*/
 }
 .footerText
@@ -127,10 +132,19 @@ h3{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 30px;
 }
+.photo1,.photo2,.text2,.mainText{
+  margin-bottom:15px;
+  margin-top: 15px;
+  /*height: ;*/
+}
+.photo1,.photo2{
+  height: 260px;
+}
 
 @media screen and (max-width: 965px) {
   .mainText , .text2{
     font-size: 1.2em;
+  
   }
  .photo1 ,.photo2{
   width:300px;
@@ -184,6 +198,7 @@ h3{
 @media  screen and (max-width:509px) {
   .first ,.second{
     width: 360px;
+    height:150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -199,8 +214,9 @@ h3{
 }
   .mainText,.text2{
   font-size: 8px;
-   width:220px;
+   width:200px;
   height: 120px;
+  margin: auto;
   }
   
   
@@ -209,6 +225,9 @@ h3{
     width: 120px;
     height: 90px;
 
+  }
+  .photo2{
+    margin-left: 5px;
   }
   .logo{
     width: 35px;
